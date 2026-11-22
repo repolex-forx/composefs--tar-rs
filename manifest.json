@@ -38,6 +38,45 @@
       ],
       "ast": [
         "aggregate/ast/4b095c863c04ef10b3a79beed8ecb481c469353b/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/4b095c863c04ef10b3a79beed8ecb481c469353b.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "libc",
+          "ecosystem": "CARGO",
+          "version": "0.2",
+          "githubOrg": "rust-lang",
+          "githubRepo": "libc",
+          "githubUrl": "https://github.com/rust-lang/libc",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "filetime",
+          "ecosystem": "CARGO",
+          "version": "0.1.5",
+          "githubOrg": "alexcrichton",
+          "githubRepo": "filetime",
+          "githubUrl": "https://github.com/alexcrichton/filetime",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "winapi",
+          "ecosystem": "CARGO",
+          "version": "0.2",
+          "githubOrg": "retep998",
+          "githubRepo": "winapi-rs",
+          "githubUrl": "https://github.com/retep998/winapi-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tempdir",
+          "ecosystem": "CARGO",
+          "version": "0.3",
+          "githubOrg": "rust-lang",
+          "githubRepo": "tempdir",
+          "githubUrl": "https://github.com/rust-lang/tempdir",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],
