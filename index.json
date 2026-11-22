@@ -1,0 +1,11 @@
+{
+  "org": "composefs",
+  "repo": "tar-rs",
+  "versions": [
+    {
+      "commit": "4b095c863c04ef10b3a79beed8ecb481c469353b",
+      "tag": "v0.4.0",
+      "parsed_at": "2026-11-22T12:17:16.585903+00:00"
+    }
+  ]
+}
